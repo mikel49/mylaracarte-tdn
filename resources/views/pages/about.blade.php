@@ -14,7 +14,7 @@
         </div>
     </div>
     
-    <p>Feel free to help to improve the <a href="https://github.com/mikel49/laracarte-tdn">source code.</a></p>
+    <p>Feel free to help to improve the <a href="https://github.com/mikel49/mylaracarte-tdn">source code.</a></p>
     
     <hr>
     
