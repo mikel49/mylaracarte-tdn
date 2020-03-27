@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        setlocale(LC_TIME, config('app.locale'));
+        //setlocale(LC_ALL, 'fr_FR');
+        Schema::defaultStringLength(191);
     }
 }
