@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp/www/mylaracarte/public/css/custom.css</file>
             <file>file:/C:/wamp/www/mylaracarte/resources/views/inc/navbar.blade.php</file>
-            <file>file:/C:/wamp/www/mylaracarte/resources/views/welcome.blade.php</file>
-            <file>file:/C:/wamp/www/mylaracarte/config/app.php</file>
-            <file>file:/C:/wamp/www/mylaracarte/resources/views/layouts/default.blade.php</file>
-            <file>file:/C:/wamp/www/mylaracarte/resources/views/inc/footer.blade.php</file>
-            <file>file:/C:/wamp/www/mylaracarte/resources/js/components/Example.js</file>
+            <file>file:/C:/wamp/www/mylaracarte/resources/views/pages/about.blade.php</file>
+            <file>file:/C:/wamp/www/mylaracarte/routes/web.php</file>
+            <file>file:/C:/wamp/www/mylaracarte/resources/views/contatcs/create.blade.php</file>
+            <file>file:/C:/wamp/www/mylaracarte/app/Http/Controllers/ContactsController.php</file>
         </group>
     </open-files>
 </project-private>
