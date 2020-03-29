@@ -16,3 +16,9 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+/*Artisan::command('laracarte:cleandb', function () {
+    $this->info('Cleaning database...');
+    \App\Models\Message::oneMonthOld()->delete();
+    $this->info('Database cleaned successfully.');
+})->describe('Clean database');*/

@@ -20,7 +20,6 @@ class ContactsController extends Controller
         Mail::to(config('laracarte.admin_support_email'))
             ->send(new ContactMessageCreated($message));
         flashy()->success('Nous allons vous répondre dans les plus brefs délais.');
-        return redirect()->route('route_path');
-        
+        return redirect()->route('home');
     }
 }
