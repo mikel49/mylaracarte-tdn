@@ -1,6 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.default', ['title' => 'Login'])
 
 @section('content')
+<p>&nbsp;</p>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
